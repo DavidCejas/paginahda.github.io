@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+    font-family: "Voltaire", sans-serif;
+}
+
+main{
+    width: 1366px;
+    height: 2000px;
+    background-color: #e8e6bc;
+    margin: 0 auto;
+    
+}
+header{
+    width: 1366px;
+    height: 200px;
+    background-color:  #5ccc94;
+    text-align: center;
+    background-image: url(../imgs/904596.jpg);
+    background-size: cover;
+    background-repeat: none;
+    background-position: center;
+}
+nav{
+    width: 1366px;
+    height: 50px;
+    background-color: rgb(35, 191, 95);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 1px;
+    line-height: 50px;
+    font-family: "Jersey 10", sans-serif;
+    font-size: 25px;
+    
+}
+nav a:hover{
+    background-color: rgb(32, 174, 86);
+    transition: .8s;
+}
+section{
+    width: 1366px;
+    height: 1500px;
+    background-color: #347530;
+   background-image: url(../imgs/gregergerger.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+footer{
+    width: 1366px;
+    height: 250px;
+    background-color: #5a7f58;
+    background-image: url(../imgs/adventure-time-cartoon-wallpaper-preview.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.personaje{
+    width: 1300px;
+    height: 350px;
+    
+    margin: 5px;
+    margin-left: 33px;
+    margin-top: 20px;
+    float: left;
+}
+.foto{
+    width: 300px;
+    height: 340px;
+    float: left;
+    margin-left: 33px;
+    text-align: center;
+    border-bottom: #f5f5f0 solid 4px;
+}
+.foto img{
+    height: 100%;
+    
+}
+.texto{
+    width: 800px;
+    height: 350px;
+    float: left;
+    margin-left: 33px;
+    padding: 20px;
+    background-color: #75e9af86;
+    text-align: left;
+}
+.texto a{
+    color: #ffffff;
+    text-decoration: none;
+    font-family: "Jersey 10", sans-serif;
+    font-size: large;
+}
+.texto a:hover{
+    background-color: #5ccc94;
+}
+.header img{
+    margin: auto;
+}
